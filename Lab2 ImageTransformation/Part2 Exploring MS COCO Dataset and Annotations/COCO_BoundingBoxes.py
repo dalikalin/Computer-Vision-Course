@@ -1,3 +1,6 @@
+# Part II: Exploring MS COCO Dataset and Annotations
+# Practice:
+# Write a Python script that takes a folder of images from COCO dataset and json file as parameters of input, draw all the object bounding boxes based on the input json file and save those images in the new folder.
 import cv2
 import json
 import os
