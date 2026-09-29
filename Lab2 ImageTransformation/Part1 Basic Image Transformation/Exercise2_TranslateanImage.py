@@ -12,11 +12,11 @@ img = cv2.imread("sheldon.jpg")
 
 h, w = img.shape[:2]
 
-# Define the translation matrix (2x3)[1, 0, tx][0, 1, ty]
-# shift right by 100, down by 50
+#Define the translation matrix (2x3)[1, 0, tx][0, 1, ty]
+#shift right by 100, down by 50
 translationmatrix = np.float32([[1, 0, 100], [0, 1, 50]])
 
-# Apply the translation
+#Apply the translation
 translatedimage = cv2.warpAffine(img, translationmatrix, (w, h))
 
 #Display the image

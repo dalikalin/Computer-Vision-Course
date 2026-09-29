@@ -11,9 +11,9 @@ import cv2
 #Load image
 img = cv2.imread("sheldon.jpg")
 
-# Scale down the image by 50%
+#Scale down the image by 50%
 scaleddownsheldon = cv2.resize(img, None, fx=0.5, fy=0.5)
-# Scale up the image by 150%
+#Scale up the image by 150%
 scaledupsheldon = cv2.resize(img, None, fx=1.5, fy=1.5)
 
 #Display the image
