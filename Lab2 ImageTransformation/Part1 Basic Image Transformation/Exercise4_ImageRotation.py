@@ -28,7 +28,6 @@ cv2.imshow("rotatedsheldon", rotatedsheldon)
 #Save the image
 cv2.imwrite("rotatedsheldon.jpg", rotatedsheldon)
 
-
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 

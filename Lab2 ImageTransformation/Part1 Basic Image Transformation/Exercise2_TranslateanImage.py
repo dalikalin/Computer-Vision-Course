@@ -21,6 +21,7 @@ translatedimage = cv2.warpAffine(img, translationmatrix, (w, h))
 
 #Display the image
 cv2.imshow("translatedimage", translatedimage)
+
 #Save the image
 cv2.imwrite("translatedsheldon.jpg", translatedimage)
 

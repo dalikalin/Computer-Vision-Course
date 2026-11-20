@@ -8,10 +8,13 @@ import cv2
 
 #Load an image
 img = cv2.imread("sheldon.jpg")
+
 #Resize
 resized = cv2.resize(img, (400, 400))
+
 #Display the image
 cv2.imshow("resizedsheldon", img)
+
 #Save the image
 cv2.imwrite("resizedsheldon.jpg", img)
 
