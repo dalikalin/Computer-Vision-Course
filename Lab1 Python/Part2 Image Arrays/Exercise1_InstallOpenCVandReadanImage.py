@@ -11,4 +11,4 @@ import cv2
 img = cv2.imread("drstrange.jpg")
 cv2.imshow("Doctor Strange", img)
 cv2.waitKey(0)
-cv2.destroyAllWindow()
+cv2.destroyAllWindows()
