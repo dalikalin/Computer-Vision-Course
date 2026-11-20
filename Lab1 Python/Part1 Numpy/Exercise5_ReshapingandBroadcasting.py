@@ -1,7 +1,6 @@
 # Exercise 5: Reshaping and Broadcasting
 # 1. Reshape a 1D array of size 12 into a 3x4 matrix.
-# 2. Create a column vector with values [1, 2, 3] and add it to every row of the
-# matrix using broadcasting.
+# 2. Create a column vector with values [1, 2, 3] and add it to every row of the matrix using broadcasting.
 import numpy as np
 
 #Create 1D array of size 12
